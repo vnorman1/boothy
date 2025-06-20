@@ -5,14 +5,14 @@ const OFFLINE_URL = '/index.html';
 const toCache = [
   './',
   './index.html',
-  './global.css', //csere a dist mappában lévőre
+  './index-CCPxNsiu.css', //csere a dist mappában lévőre
   './favicon_boothy.png',
   './manifest.webmanifest.json',
   './og_boothy.png',
   './robots.txt',
   './shutter.mp3',
   './sitemap.xml',
-  './index.js'  // statikus assetek, még kell a js build után
+  './index-B_qPJmJ6.js'  // statikus assetek, még kell a js build után
 ];
 
 self.addEventListener('install', (event) => {

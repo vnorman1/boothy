@@ -5,14 +5,14 @@ const OFFLINE_URL = '/boothy/index.html'; // Az offline fallback oldal
 const toCache = [
   '/boothy/',
   '/boothy/index.html',
-  '/boothy/assets/index-CCPxNsiu.css.css', //csere a dist mappában lévőre
+  '/boothy/assets/index-pR3lbO7E.js', //csere a dist mappában lévőre
   '/boothy/favicon_boothy.png',
   '/boothy/manifest.webmanifest.json',
   '/boothy/og_boothy.png',
   '/boothy/robots.txt',
   '/boothy/shutter.mp3',
   '/boothy/sitemap.xml',
-  '/boothy/assets/index-B_qPJmJ6.js'  // statikus assetek, még kell a js build után
+  '/boothy/assets/index-CCPxNsiu.css'  // statikus assetek, még kell a js build után
 ];
 
 self.addEventListener('install', (event) => {
